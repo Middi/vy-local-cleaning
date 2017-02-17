@@ -1,0 +1,261 @@
+/* ----- MEDIA QUERIES ------ */
+
+
+/* -- BREAK 1 -- */
+@media only screen and (max-width: 1200px) {
+
+    .logo {max-width: 500px;}
+
+    #bar-main {
+        height: 53vw;
+    }
+
+
+    .hero-content {
+        padding: 160px 30px 180px;
+        h2 {font-size: 40px;}
+    }
+
+    .btn.outline2 {margin-top: 10px;
+    font-size: 14px;}
+
+
+}
+
+
+/* -- BREAK 2 -- */
+@media only screen and (max-width: 992px) {
+
+    .logo {width: 450px;}
+
+    .outline {display: none;}
+
+    .call {display: none;}
+
+    #bar-main {
+        height: 53vw;
+    }
+
+    .flex-parent {display: none;}
+
+    .flex-parent2 {display: flex;}
+
+
+
+}
+
+
+/* -- BREAK 3 -- */
+@media only screen and (max-width: 850px) {
+
+    .bar {
+        height:       80px;
+        padding-top:  18px;
+        text-align: center;
+    }
+
+    .logo {
+        text-align: center;
+        height:       80px;
+        width:        100%;
+        margin-left:  auto;
+        margin-right: auto;
+    }
+
+    .logo-img {
+        margin-left:  auto;
+        margin-right: auto;
+    }
+
+    .btn-float {display: block;}
+
+    .tel {display: none;}
+
+    .btn.outline2 {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+
+    .hero-content {
+        padding-top: 175px;
+
+        h2 {font-size: 34px;
+        line-height: 28px;}
+
+        h5 {font-size: 20px;
+        line-height: 10px;}
+    }
+
+    .how-color {
+      background: none;
+      background-color: $bg-how;
+    }
+
+    .how-it-works {
+      padding: 70px 0 80px;
+
+     h4 {margin: 30px 0 0;}
+   }
+
+    .flex-parent {display: block;}
+
+    .flex-parent2 {display: none;}
+
+    .flex-child {
+        display:       block;
+        text-align:   center;
+        width:         260px;
+        margin-right:   auto;
+        margin-left:    auto;
+        padding: 10px 0 10px;
+    }
+
+    .flex-img {
+        padding-top: 50px;
+        display:    block;
+
+        img {
+            width:       70px;
+            padding-bottom: 0;
+        }
+    }
+}
+
+
+/* -- BREAK 4 -- */
+@media only screen and (max-width: 700px) {
+
+    #bar-main { background: url('../images/masthead.jpg') no-repeat;
+    background-size: cover;
+    height: 500px;
+    }
+
+}
+
+/* -- BREAK 5 -- */
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        height:           80px;
+        padding:             0;
+        width:            100%;
+        vertical-align: middle;
+
+        h1 {font-size: 22px;}
+    }
+
+    .call {display: none;}
+
+    .btn.outline2 {margin-top: 30px;}
+
+    .services {
+      background: none;
+      background-color: $blue;
+    }
+
+
+    .services-column {
+        ul {display: block;}
+
+        .rss li {
+          max-width: 300px;
+          margin-left:     auto;
+          margin-right:    auto;
+          display:        block;
+          text-align:      left;
+          word-break: break-all;
+          vertical-align:   top;
+          list-style-type: none;
+          background: url("../images/tick.png") 0 0 no-repeat;
+          background-size: 25px 25px;
+          padding: 4px 0px 10px 40px;
+          p {padding: 0 0 0 0;}
+
+        }
+    }
+
+    .form {padding: 30px 20px;}
+}
+
+
+/* -- BREAK 6 -- */
+@media only screen and (max-width: 450px) {
+
+    .logo h1 {font-size: 20px;}
+
+    .how-it-works {padding: 40px 0 60px;}
+
+    .services-column {
+        padding: 40px 0px 40px 0px;
+
+        ul { padding: 10px 0 40px 10px;}
+
+        .rss li {max-width: 270px;}
+    }
+
+    .service-item {
+        font-size:   12px;
+        line-height: 16px;
+    }
+
+
+    .form, .how-it-works, .services h3 {
+        margin:  20px 0;
+        font-size: 28px;
+    }
+
+    #callcontain {background: none;}
+
+    footer {font-size: 8px;}
+}
+
+
+/* -- BREAK 7 -- */
+@media only screen and (max-width: 350px) {
+
+    .logo h1 {font-size: 18px;}
+
+
+    #bar-main {height: 290px;}
+    .hero-content {
+        padding: 40px 10px 0;
+
+        h2 {font-size: 26px;}
+
+        h5 {font-size: 14px;}
+    }
+
+    .how-it-works {padding: 40px 0;}
+
+    .flex-child {
+        width: 230px;
+
+        small {font-size: 0.8em;}
+    }
+    .services-column {
+        padding: 40px 10px 40px 10px;
+
+        ul { padding: 10px 0 40px 10px;}
+
+        .rss li {
+          width:               230px;
+          background-size: 22px 22px;
+          padding: 5px 0px 10px 32px;
+        }
+    }
+
+    .service-item {
+        font-size:   12px;
+        line-height: 14px;
+    }
+
+    .form h3, .how-it-works, .services {
+        margin:  15px 0;
+        font-size: 26px;
+    }
+
+    .form {
+        padding: 30px 20px;
+        background:   none;
+    }
+}

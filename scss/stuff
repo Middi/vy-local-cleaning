@@ -1,0 +1,17 @@
+ul {
+  padding: 20px;
+  display: inline-block;
+}
+
+    .rss li {
+      display: block;
+      text-align: left;
+          max-width:100%; /* limit width */
+          word-break:break-all; /* wrap extended text*/
+
+        list-style-type: none;
+        background: url("../images/tick.png") 0 3px no-repeat;
+        background-size: 20px 20px;
+        padding:        5px 0 5px 24px;
+    }
+}
